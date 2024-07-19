@@ -5,8 +5,8 @@ set(CMAKE_CXX_STANDARD 17)
 
 add_executable(Student_Roster_Program
         main.cpp
-        degree.h
-        student.h
-        roster.h
-        student.cpp
-        roster.cpp)
+        include/degree.h
+        include/student.h
+        include/roster.h
+        src/student.cpp
+        src/roster.cpp)

@@ -25,8 +25,8 @@
 
 #include <iostream>
 
-#include "degree.h"
-#include "roster.h"
+#include "include/degree.h"
+#include "include/roster.h"
 
 using namespace std;
 

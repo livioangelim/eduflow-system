@@ -1,11 +1,8 @@
 # ninja log v6
-14	416	7431177802559055	CMakeFiles/Student_Roster_Program.dir/student.cpp.obj	c00ae0a7edde25c7
-5	458	7431178177292009	CMakeFiles/Student_Roster_Program.dir/main.cpp.obj	22fd5f2a5a5ddfa0
-2	267	7431180414451048	build.ninja	c40c81810506a67c
-15	571	7431178177393212	CMakeFiles/Student_Roster_Program.dir/roster.cpp.obj	924d0ab1697d5fa4
-571	713	7431178182957337	Student_Roster_Program.exe	578ae535cecb4020
-3	262	7431180414451048	build.ninja	c40c81810506a67c
 14	439	7431180414857774	CMakeFiles/Student_Roster_Program.dir/student.cpp.obj	c00ae0a7edde25c7
-4	483	7431180414761890	CMakeFiles/Student_Roster_Program.dir/main.cpp.obj	22fd5f2a5a5ddfa0
+4	473	7431190367557073	CMakeFiles/Student_Roster_Program.dir/main.cpp.obj	22fd5f2a5a5ddfa0
+3	262	7431190586075600	build.ninja	c40c81810506a67c
 26	609	7431180414978226	CMakeFiles/Student_Roster_Program.dir/roster.cpp.obj	924d0ab1697d5fa4
-610	752	7431180420821206	Student_Roster_Program.exe	578ae535cecb4020
+14	423	7431190367658766	CMakeFiles/Student_Roster_Program.dir/src/student.cpp.obj	1a7ebecf0f38a24f
+595	734	7431190373454827	Student_Roster_Program.exe	3ca91c67488cba18
+26	594	7431190367778814	CMakeFiles/Student_Roster_Program.dir/src/roster.cpp.obj	57b8d5da0c859391

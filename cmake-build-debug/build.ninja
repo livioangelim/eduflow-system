@@ -55,17 +55,17 @@ build CMakeFiles/Student_Roster_Program.dir/main.cpp.obj: CXX_COMPILER__Student_
   OBJECT_DIR = CMakeFiles\Student_Roster_Program.dir
   OBJECT_FILE_DIR = CMakeFiles\Student_Roster_Program.dir
 
-build CMakeFiles/Student_Roster_Program.dir/student.cpp.obj: CXX_COMPILER__Student_Roster_Program_unscanned_Debug C$:/Users/itliv/CLionProjects/Student_Roster_Program/student.cpp || cmake_object_order_depends_target_Student_Roster_Program
-  DEP_FILE = CMakeFiles\Student_Roster_Program.dir\student.cpp.obj.d
+build CMakeFiles/Student_Roster_Program.dir/src/student.cpp.obj: CXX_COMPILER__Student_Roster_Program_unscanned_Debug C$:/Users/itliv/CLionProjects/Student_Roster_Program/src/student.cpp || cmake_object_order_depends_target_Student_Roster_Program
+  DEP_FILE = CMakeFiles\Student_Roster_Program.dir\src\student.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\Student_Roster_Program.dir
-  OBJECT_FILE_DIR = CMakeFiles\Student_Roster_Program.dir
+  OBJECT_FILE_DIR = CMakeFiles\Student_Roster_Program.dir\src
 
-build CMakeFiles/Student_Roster_Program.dir/roster.cpp.obj: CXX_COMPILER__Student_Roster_Program_unscanned_Debug C$:/Users/itliv/CLionProjects/Student_Roster_Program/roster.cpp || cmake_object_order_depends_target_Student_Roster_Program
-  DEP_FILE = CMakeFiles\Student_Roster_Program.dir\roster.cpp.obj.d
+build CMakeFiles/Student_Roster_Program.dir/src/roster.cpp.obj: CXX_COMPILER__Student_Roster_Program_unscanned_Debug C$:/Users/itliv/CLionProjects/Student_Roster_Program/src/roster.cpp || cmake_object_order_depends_target_Student_Roster_Program
+  DEP_FILE = CMakeFiles\Student_Roster_Program.dir\src\roster.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\Student_Roster_Program.dir
-  OBJECT_FILE_DIR = CMakeFiles\Student_Roster_Program.dir
+  OBJECT_FILE_DIR = CMakeFiles\Student_Roster_Program.dir\src
 
 
 # =============================================================================
@@ -75,7 +75,7 @@ build CMakeFiles/Student_Roster_Program.dir/roster.cpp.obj: CXX_COMPILER__Studen
 #############################################
 # Link the executable Student_Roster_Program.exe
 
-build Student_Roster_Program.exe: CXX_EXECUTABLE_LINKER__Student_Roster_Program_Debug CMakeFiles/Student_Roster_Program.dir/main.cpp.obj CMakeFiles/Student_Roster_Program.dir/student.cpp.obj CMakeFiles/Student_Roster_Program.dir/roster.cpp.obj
+build Student_Roster_Program.exe: CXX_EXECUTABLE_LINKER__Student_Roster_Program_Debug CMakeFiles/Student_Roster_Program.dir/main.cpp.obj CMakeFiles/Student_Roster_Program.dir/src/student.cpp.obj CMakeFiles/Student_Roster_Program.dir/src/roster.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\Student_Roster_Program.dir
