@@ -1,4 +1,4 @@
-# Student Roster Program
+# Roster Program
 
 ## Overview
 This C++ program, developed by Livio A. M., demonstrates the management of a student roster system. The program includes functionality for parsing student data, creating and manipulating Student objects, managing a collection of students in a Roster, and displaying various reports on student data. It leverages object-oriented programming principles and various C++ features.
