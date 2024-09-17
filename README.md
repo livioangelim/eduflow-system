@@ -1,67 +1,59 @@
-# Roster Program
+# EduFlow System
 
 ## Overview
-This C++ program, developed by Livio A. M., demonstrates the management of a student roster system. The program includes functionality for parsing student data, creating and manipulating Student objects, managing a collection of students in a Roster, and displaying various reports on student data. It leverages object-oriented programming principles and various C++ features.
+EduFlow System is a C++ program developed by Livio A. M. for managing educational data. The program features student data parsing, object management, roster handling, and generates various reports. It leverages object-oriented programming principles and advanced C++ features.
 
 ## Features
-The program offers the following key functionalities:
+The system offers the following key functionalities:
 
-- **Parsing Student Data**: Reads and processes student data from strings.
-- **Student Object Management**: Creates and manipulates Student objects with attributes such as ID, name, email, age, and course duration.
-- **Roster Management**: Manages a collection of students using dynamic memory allocation.
-- **Reporting**: Displays various reports on student data, including:
+- **Data Parsing**: Reads and processes educational data from strings.
+- **Object Management**: Manages student objects with attributes like ID, name, email, age, and course duration.
+- **Data Management**: Organizes and manipulates a collection of educational data using dynamic memory allocation.
+- **Reporting**: Generates reports on student data, including:
   - Invalid emails
-  - Average days in course
-  - Students by degree program
+  - Average course completion time
+  - Data by educational program
 
 ## Enhancements
 ### 1. Database Integration
-- Uses SQLite to store and manage student data.
-- Implements CRUD operations using SQL queries.
+- Uses SQLite to manage educational data with CRUD operations via SQL queries.
 
 ### 2. REST API
-- Creates a RESTful API for managing student records.
-- Uses Crow framework for setting up endpoints.
+- Provides a RESTful API for managing records, built with Crow framework.
 
 ### 3. Unit Testing
-- Implements unit tests using Google Test.
-- Validates email addresses, calculates average days in course, and verifies student addition/removal.
+- Implements unit tests with Google Test to validate functionality and performance.
 
 ### 4. Error Handling
-- Enhances error handling using exceptions and validation checks.
+- Strengthens reliability using exception handling and validation mechanisms.
 
 ### 5. Concurrency
-- Implements multithreading for handling large datasets and concurrent requests.
+- Utilizes multithreading to handle large datasets and multiple requests.
 
-### 6. Documentation and Code Comments
-- Provides detailed comments and generates documentation using Doxygen.
+### 6. Documentation
+- Generates detailed documentation with Doxygen and provides comprehensive code comments.
 
 ### 7. CI/CD Pipeline
-- Sets up a CI/CD pipeline using GitHub Actions for automated testing and deployment.
+- Configures CI/CD pipeline using GitHub Actions for automated testing and continuous deployment.
 
 ### 8. Graphical User Interface (GUI)
-- Creates a simple GUI using Qt for managing the student roster.
+- Developed a simple GUI with Qt for easy interaction with educational data.
 
 ### 9. Cloud Deployment
-- Deploys the application on AWS using Docker.
+- Deploys the system to AWS using Docker for seamless cloud integration.
 
 ### 10. Advanced Reporting
-- Adds comprehensive reporting features and exports data to CSV and PDF formats.
-   
+- Exports comprehensive reports in CSV and PDF formats.
 
 ## Usage
-Upon running the program, it will parse student data and perform the following tasks:
-- Display all students
-- Display invalid email addresses
-- Display average days in course for each student
-- Display students by degree program
+Upon running the program, it performs the following tasks:
+- Displays all educational records
+- Highlights invalid email addresses
+- Calculates average days in course for each student
+- Organizes data by educational program
 
+## Acknowledgments
+This project was developed as part of a coursework assignment.
 
-### License
-This project is licensed under the MIT License. See the LICENSE file for details.
-
-### Acknowledgments
-This project was developed as part of a coursework assignment. 
-
-### Contact
+## Contact
 For any questions or suggestions, please contact Livio A. M. at it.livioam@gmail.com
